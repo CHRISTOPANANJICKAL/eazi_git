@@ -2,15 +2,17 @@
 
 A Quick View for Git Profiles
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+This flutter project uses git hub api to fetch details of the user. Profile informations and repositories are fetched from the API and displayed in the next screen in two tabs.
+The app shows error messages, if any, to the user such as "no internet connection" error etc. Provider package is used for the state management.The app uses googleFonts and needs internet for the first time to fetch the fonts.
+- The project is developed in Flutter Channel stable, version 2.5.3.
+- The project is build and tested on two physical devices, Android 9 and Windows 11 and is confrimed to work as expected.
+- Android Stuio IDE was used for coding the app.
+- Android compileSdkVersion 30
+- Android minSdkVersion 16
+- Android targetSdkVersion 30
 
-A few resources to get you started if this is your first Flutter project:
+The release version of the app can be found in the folder named "apk".
+Screenshots can be found in the folder named "screenshots".
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
